@@ -61,7 +61,7 @@ function App() {
   }
 
   return (
-    <ThemeContext.Provider value={theme}>
+    <ThemeContext value={theme}>
       <div className="d-flex justify-content-center align-items-center p-20">
         <div className="card container p-20">
           <h1 className="mb-20 d-flex justify-content-center align-items-center">
@@ -82,7 +82,7 @@ function App() {
           />
         </div>
       </div>
-    </ThemeContext.Provider>
+    </ThemeContext>
   );
 }
 
